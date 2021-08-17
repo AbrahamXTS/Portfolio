@@ -7,6 +7,7 @@
 		<link rel="icon" type="image/png" href="./assets/img/favicon.png" />
         <link rel="stylesheet" href="./styles/normalize.css">
         <link rel="stylesheet" href="./styles/main.css">
+		<link rel="stylesheet" href="./styles/media.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="I'm Abraham Espinosa, a Tech passionate and Software Developer"/>
 		<meta name="keywords" content="Abraham, Espinosa, Developer, Github, Software, Mérida, Ciudad del Carmen, Website, Web Developer"/>
@@ -18,32 +19,46 @@
 		<meta property="og:description" content="I'm Abraham Espinosa, a Tech passionate and Software Developer"/>
 		<script src="https://kit.fontawesome.com/129c179ef3.js" crossorigin="anonymous" async></script>
 	</head>
-	<body class="container">
-		<nav class="flex">
+	<body>
+		<nav class="flex container navbar">
 			<img src="./assets/img/logo.svg" alt="Logo" class="navbar__logo" />
-			<div class="navbar__options">
-				<a href="" class="navbar__option">Home</a>
-				<a href="" class="navbar__option">About</a>
-				<a href="" class="navbar__option">Contact</a>
+			<div>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-menu-2"
+					width="64"
+					height="64"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="#6c5ce7"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<line x1="4" y1="6" x2="20" y2="6" />
+					<line x1="4" y1="12" x2="20" y2="12" />
+					<line x1="4" y1="18" x2="20" y2="18" />
+				</svg>
 			</div>
 		</nav>
 
-		<header class="flex">
-			<h5>Hello there!</h5>
-			<h1>I'm Abraham Espinosa.</h1>
-			<ul class="header__descriptions flex">
-				<li>Java Lover</li>
-				<li>Software Developer</li>
-				<li>Coffe Drinker</li>
+		<header class="flex container header">
+			<h5 class="header__subtitle">Hello there!</h5>
+			<h1 class="header__title">I'm Abraham Espinosa.</h1>
+			<ul class="flex header__list">
+				<li class="header__list--item">Java Lover</li>
+				<li class="header__list--item">Software Developer</li>
+				<li class="header__list--item">Coffe Drinker</li>
 			</ul>
 			<!-- prettier-ignore -->
 			<div class="social">
-                <a href="mailto:abrahamespinosa3132@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i></a>
-			    <a href="https://www.instagram.com/Abraham_EM_" target="_blank"><i class="fa fa-instagram"></i></a>
-			    <a href="https://twitter.com/Abraham_EM_" target="_blank"><i class="fa fa-twitter"></i></a>
-			    <a href="https://github.com/AbrahamXTS" target="_blank"><i class="fa fa-github"></i></a>
-			    <a href="https://www.linkedin.com/in/abrahamespinosam/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
+					<a href="mailto:abrahamespinosa3132@gmail.com" target="_blank" class="social__icon"><i class="fa fa-paper-plane fa-2x "></i></a>
+					<a href="https://www.instagram.com/Abraham_EM_" target="_blank" class="social__icon"><i class="fa fa-instagram fa-2x "></i></a>
+					<a href="https://twitter.com/Abraham_EM_" target="_blank" class="social__icon"><i class="fa fa-twitter fa-2x "></i></a>
+					<a href="https://github.com/AbrahamXTS" target="_blank" class="social__icon"><i class="fa fa-github fa-2x "></i></a>
+					<a href="https://www.linkedin.com/in/abrahamespinosam/" target="_blank" class="social__icon"><i class="fa fa-linkedin fa-2x "></i></a>
+				</div>
 		</header>
 	</body>
 </html>
