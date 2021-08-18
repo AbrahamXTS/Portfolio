@@ -20,6 +20,7 @@ html {
 }
 
 body {
+	overflow: hidden;
 	font-size: 1.6rem;
 	font-family: "Poppins", sans-serif;
 }
@@ -59,6 +60,41 @@ a {
 
 .icon-tabler-menu-2 {
 	height: 4rem;
+	cursor: pointer;
+}
+
+.menu {
+	top: 0;
+	right: 0;
+	width: 0rem;
+	height: 100vh;
+	position: absolute;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--secundario);
+}
+
+.menu__close {
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.icon-tabler-x {
+	height: 4rem;
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+.menu__options {
+	width: 100%;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu__option {
+	color: white;
+	padding: 2rem 0rem;
 }
 
 /*  */
