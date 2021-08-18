@@ -35,7 +35,7 @@ a {
 }
 
 .container {
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 	max-width: 130rem;
 }
@@ -65,12 +65,8 @@ a {
 	color: var(--secundario);
 }
 
-.header__list {
-	padding: 0;
-}
-
-.header__list--item {
-	margin: 1.5rem;
+.header__description {
+	margin: 2rem;
 	list-style: none;
 }
 
