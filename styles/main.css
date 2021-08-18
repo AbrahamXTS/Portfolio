@@ -2,8 +2,8 @@
 
 :root {
 	--primario: #95afc0;
-	/* --secundario: #7b73ff; */
 	--secundario: #6c5ce7;
+	--complementario: #7b73ff;
 	--tipografia: #535c68;
 }
 
@@ -38,6 +38,13 @@ a {
 	width: 95%;
 	margin: 0 auto;
 	max-width: 130rem;
+}
+
+.button {
+	color: white;
+	padding: 1.5rem;
+	text-align: center;
+	border-radius: 1.5rem;
 }
 
 /*  */
@@ -78,4 +85,9 @@ a {
 .social__icon {
 	margin: 2rem 1.2rem;
 	color: var(--secundario);
+}
+
+.button__CV {
+	margin-top: 2.5rem;
+	background-color: var(--complementario);
 }
