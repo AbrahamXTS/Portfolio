@@ -8,4 +8,16 @@
 	.menu__option {
 		font-size: 2rem;
 	}
+
+	.header {
+		height: calc(100vh - 8rem);
+	}
+
+	.portfolio {
+		margin-top: 0rem;
+	}
+
+	.portfolio__items {
+		grid-template-columns: 1fr;
+	}
 }
