@@ -212,3 +212,22 @@ a {
 	text-align: center;
 	color: var(--secundario);
 }
+
+/* Contact page */
+.grid__contact {
+	gap: 2rem;
+	width: 60%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid__contact a {
+	border-radius: 1rem;
+	padding: 2.5rem;
+	background-color: var(--complementario);
+}
+
+.contact__item {
+	color: white;
+	text-align: center;
+}

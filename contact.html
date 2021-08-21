@@ -47,6 +47,7 @@
 			</div>
 			<span class="spacing">&nbsp;</span>
 		</aside>
+
 		<nav class="flex container navbar">
 			<a href="/"><img src="./assets/img/logo.svg" alt="Logo" class="navbar__logo" /></a>
 			<div>
@@ -69,6 +70,59 @@
 				</svg>
 			</div>
 		</nav>
-		<script src="scripts/main.js"></script>
+
+		<main class="container">
+			<h2 class="portfolio__subtitle">Do you want to talk with me?</h2>
+			<div class="grid__contact container">
+				<a href="https://github.com/AbrahamXTS" target="_blank" rel="noopener noreferrer">
+					<div class="contact__item">
+						<i class="fab fa-github fa-2x"></i>
+						<p>Follow me</p>
+					</div>
+				</a>
+				<a href="mailto:abrahamespinosa3132@gmail.com" target="_blank" rel="noopener noreferrer">
+					<div class="contact__item">
+						<i class="fas fa-paper-plane fa-2x"></i>
+						<p>Mail me</p>
+					</div>
+				</a>
+				<!-- prettier-ignore -->
+				<a href="https://linkedin.com/in/abrahamespinosam" target="_blank" rel="noopener noreferrer">
+					<div class="contact__item">
+						<i class="fab fa-linkedin-in fa-2x"></i>
+						<p>Contact me</p>
+					</div>
+				</a>
+			</div>
+
+			<!-- prettier-ignore -->
+			<form action="./received.html" class="" name="" netlify>
+				<fieldset>
+					<legend>Send me a mail</legend>
+					<div class="">
+						<label for="nombre">Name: </label>
+						<input class="" name="nombre" type="text" id="nombre" />
+					</div>
+
+					<div class="">
+						<label for="telefono">Phone number: </label>
+						<input class="" name="telefono" type="tel" id="telefono" />
+					</div>
+
+					<div class="">
+						<label for="email">Email: </label>
+						<input class="" name="email" type="email" id="email"  />
+					</div>
+
+					<div class="">
+						<label for="mensaje">Message: </label>
+						<textarea class="" name="mensaje" id="mensaje"></textarea>
+					</div>
+					<button class="button" type="submit">Enviar</button>
+				</fieldset>
+			</form>
+		</main>
+
+		<script src="scripts/menu.js"></script>
 	</body>
 </html>

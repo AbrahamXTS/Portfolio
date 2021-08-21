@@ -24,4 +24,13 @@
 	.portfolio__items {
 		grid-template-columns: 1fr;
 	}
+
+	.grid__contact {
+		width: 100%;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.grid__contact a {
+		padding: 1.5rem;
+	}
 }
