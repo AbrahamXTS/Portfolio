@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 767px) {
+	.navbar {
+		margin-top: 2rem;
+	}
+
 	.menu__option {
 		font-size: 2rem;
 	}
