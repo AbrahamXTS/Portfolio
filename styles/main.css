@@ -45,7 +45,7 @@ a {
 	color: white;
 	padding: 1.5rem;
 	text-align: center;
-	border-radius: 1.5rem;
+	background-color: var(--complementario);
 }
 
 /*  */
@@ -127,7 +127,7 @@ a {
 
 .button__CV {
 	margin-top: 2.5rem;
-	background-color: var(--complementario);
+	border-radius: 1.5rem;
 }
 
 /*  */
@@ -208,7 +208,7 @@ a {
 }
 
 .footer {
-	padding: 3rem;
+	padding: 2rem 0rem 4rem 0rem;
 	text-align: center;
 	color: var(--secundario);
 }
@@ -216,18 +216,54 @@ a {
 /* Contact page */
 .grid__contact {
 	gap: 2rem;
-	width: 60%;
+	width: 55%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid__contact a {
-	border-radius: 1rem;
 	padding: 2.5rem;
+	border-radius: 1rem;
 	background-color: var(--complementario);
 }
 
 .contact__item {
 	color: white;
 	text-align: center;
+}
+
+/* Form */
+.form__contact {
+	width: 55%;
+	margin: 4rem auto;
+	padding: 2rem 1rem;
+	border-radius: 1rem;
+	background-color: rgba(245, 245, 245, 0.7);
+}
+
+.form__fields {
+	align-items: inherit;
+	flex-direction: column;
+}
+
+.field__label {
+	font-weight: 500;
+	margin-bottom: 1rem;
+	color: var(--complementario);
+}
+
+.field__input {
+	resize: none;
+	padding: 1rem;
+	box-shadow: none;
+	margin-bottom: 1.5rem;
+	border-radius: 0.5rem;
+	color: var(--tipografia);
+	border: 1px solid #5f5ac7;
+}
+
+.button__submit {
+	border: none;
+	border-radius: 1rem;
+	padding: 1rem 2.5rem;
 }

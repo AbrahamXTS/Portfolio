@@ -42,10 +42,10 @@
 			</div>
 			<div class="flex menu__options">
 				<a href="/" class="menu__option">Home</a>
-				<a href="./about.html" class="menu__option">About</a>
-				<a href="./contact.html" class="menu__option">Contact</a>
+				<a href="./about" class="menu__option">About</a>
+				<a href="./contact" class="menu__option">Contact</a>
 			</div>
-			<span class="spacing">&nbsp;</span>
+			<span>&nbsp;</span>
 		</aside>
 
 		<nav class="flex container navbar">
@@ -96,32 +96,36 @@
 			</div>
 
 			<!-- prettier-ignore -->
-			<form action="./received.html" class="" name="" netlify>
-				<fieldset>
-					<legend>Send me a mail</legend>
-					<div class="">
-						<label for="nombre">Name: </label>
-						<input class="" name="nombre" type="text" id="nombre" />
+			<form action="./received.html" class="form__contact container" name="Contacto" netlify>
+					<div class="flex form__fields">
+						<label class="field__label" for="nombre">Name: </label>
+						<input class="field__input" name="nombre" type="text" id="nombre" />
 					</div>
 
-					<div class="">
-						<label for="telefono">Phone number: </label>
-						<input class="" name="telefono" type="tel" id="telefono" />
+					<div class="flex form__fields">
+						<label class="field__label" for="telefono">Phone number: </label>
+						<input class="field__input" name="telefono" type="tel" id="telefono" />
 					</div>
 
-					<div class="">
-						<label for="email">Email: </label>
-						<input class="" name="email" type="email" id="email"  />
+					<div class="flex form__fields">
+						<label class="field__label" for="email">Email: </label>
+						<input class="field__input" name="email" type="email" id="email"  />
 					</div>
 
-					<div class="">
-						<label for="mensaje">Message: </label>
-						<textarea class="" name="mensaje" id="mensaje"></textarea>
+					<div class="flex form__fields">
+						<label class="field__label" for="mensaje">Message: </label>
+						<textarea class="field__input" name="mensaje" id="mensaje" rows="4"></textarea>
 					</div>
-					<button class="button" type="submit">Enviar</button>
-				</fieldset>
+					<button class="button button__submit" type="submit">Send</button>
 			</form>
 		</main>
+
+		<footer class="container footer">
+			<a
+				href="https://wa.me/529381714510?text=Hi%20Abraham,%20I%20would%20like%20to%20talk%20about%20a%20project"
+				>Copyright &copy; 2021 | All Rights Reserved</a
+			>
+		</footer>
 
 		<script src="scripts/menu.js"></script>
 	</body>

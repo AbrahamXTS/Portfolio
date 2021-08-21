@@ -33,4 +33,12 @@
 	.grid__contact a {
 		padding: 1.5rem;
 	}
+
+	.form__contact {
+		width: 100%;
+	}
+
+	.button__submit {
+		width: 100%;
+	}
 }
