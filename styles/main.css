@@ -267,3 +267,42 @@ a {
 	border-radius: 1rem;
 	padding: 1rem 2.5rem;
 }
+
+/*  */
+.received {
+	gap: 2rem;
+	height: 65vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.form__received {
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.form__received h1,
+.form__received p {
+	margin-bottom: 3rem;
+}
+
+.button__homepage,
+.button__previous {
+	border-radius: 3rem;
+	border: 1px solid var(--secundario);
+}
+
+.button__homepage {
+	margin-right: 1.5rem;
+}
+
+.button__previous {
+	color: var(--secundario);
+	background-color: white;
+}
+
+.received__image {
+	width: 40rem;
+	margin-top: 10rem;
+}

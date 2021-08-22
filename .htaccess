@@ -1,3 +1,5 @@
+ErrorDocument 404 /404
+
 RewriteBase /
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
