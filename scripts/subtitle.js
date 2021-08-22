@@ -1,13 +1,1 @@
-document.addEventListener("DOMContentLoaded", () => {
-	const item = document.querySelector(".header__description");
-	const frases = ["JavaScript Lover", "Coffe Drinker", "Software Developer"];
-
-	let i = 0;
-
-	function wordChange() {
-		item.textContent = frases[i];
-		i < frases.length - 1 ? i++ : (i = 0);
-	}
-
-	setInterval(wordChange, 2000);
-});
+document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector(".header__description");var t=["JavaScript Lover","Coffe Drinker","Software Developer"];let n=0;setInterval(function(){e.textContent=t[n],n<t.length-1?n++:n=0},2e3)});
