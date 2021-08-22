@@ -332,5 +332,5 @@ a {
 
 .profile__picture {
 	width: 40rem;
-	margin-top: 5rem;
+	margin: 5rem auto;
 }
