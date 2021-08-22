@@ -306,3 +306,31 @@ a {
 	width: 40rem;
 	margin-top: 10rem;
 }
+
+.about {
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.about__description {
+	width: 80%;
+	line-height: 2;
+	font-size: 1.7rem;
+}
+
+.purple {
+	color: var(--secundario);
+}
+
+.about__text {
+	margin: 1.5rem auto;
+}
+
+.about__social {
+	margin-top: 5rem;
+}
+
+.profile__picture {
+	width: 40rem;
+	margin-top: 5rem;
+}

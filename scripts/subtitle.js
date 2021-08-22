@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 	const item = document.querySelector(".header__description");
-	const frases = ["Software Developer", "Java Lover", "Coffe Drinker"];
+	const frases = ["JavaScript Lover", "Coffe Drinker", "Software Developer"];
 
 	let i = 0;
 

@@ -51,4 +51,25 @@
 		width: 100%;
 		margin-top: 3rem;
 	}
+
+	.about__description {
+		width: 100%;
+		font-size: 1.3rem;
+		text-align: justify;
+	}
+
+	.about__text {
+		font-size: 1.3rem;
+	}
+
+	.about__social {
+		display: grid;
+		margin-top: 1rem;
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+	.profile__picture {
+		width: 100%;
+		margin-top: 2rem;
+	}
 }
