@@ -4,19 +4,28 @@
 		<meta charset="UTF-8" />
 		<title>Abraham Espinosa | Software Developer</title>
 		<link rel="icon" type="image/png" href="./assets/img/favicon.png" />
-        <link rel="stylesheet" href="./styles/normalize.css">
-        <link rel="stylesheet" href="./styles/main.css">
-		<link rel="stylesheet" href="./styles/media.css">
-		<meta name="robots" content="noindex">
+		<link rel="stylesheet" href="./styles/normalize.css" />
+		<link rel="stylesheet" href="./styles/main.css" />
+		<link rel="stylesheet" href="./styles/media.css" />
+		<meta name="robots" content="noindex" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="I'm Abraham Espinosa, a Tech passionate and Software Developer"/>
-		<meta name="keywords" content="Abraham, Espinosa, Developer, Github, Software, Mérida, Ciudad del Carmen, Website, Web Developer, Abraham Espinosa Mendoza"/>
+		<meta
+			name="description"
+			content="I'm Abraham Espinosa, a Tech passionate and Software Developer"
+		/>
+		<meta
+			name="keywords"
+			content="Abraham, Espinosa, Developer, Github, Software, Mérida, Ciudad del Carmen, Website, Web Developer, Abraham Espinosa Mendoza"
+		/>
 		<meta property="og:title" content="Abraham Espinosa | Software Developer" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://abrahamespinosa.mx" />
 		<meta property="og:image" content="https://abrahamespinosa.mx/assets/img/favicon.png" />
 		<meta property="og:site_name" content="Abraham Espinosa | Software Developer" />
-		<meta property="og:description" content="I'm Abraham Espinosa, a Tech passionate and Software Developer"/>
+		<meta
+			property="og:description"
+			content="I'm Abraham Espinosa, a Tech passionate and Software Developer"
+		/>
 		<script src="https://kit.fontawesome.com/129c179ef3.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
@@ -85,7 +94,11 @@
 						<p>Mail me</p>
 					</div>
 				</a>
-				<a href="https://linkedin.com/in/abrahamespinosam" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://linkedin.com/in/abrahamespinosam"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<div class="contact__item">
 						<i class="fab fa-linkedin-in fa-2x"></i>
 						<p>Contact me</p>
@@ -94,26 +107,26 @@
 			</div>
 
 			<form action="./received" class="form__contact container" name="Contacto" netlify>
-					<div class="flex form__fields">
-						<label class="field__label" for="nombre">Name: </label>
-						<input class="field__input" name="nombre" type="text" id="nombre" />
-					</div>
+				<div class="flex form__fields">
+					<label class="field__label" for="nombre">Name: </label>
+					<input class="field__input" name="nombre" type="text" id="nombre" required />
+				</div>
 
-					<div class="flex form__fields">
-						<label class="field__label" for="telefono">Phone number: </label>
-						<input class="field__input" name="telefono" type="tel" id="telefono" />
-					</div>
+				<div class="flex form__fields">
+					<label class="field__label" for="telefono">Phone number: </label>
+					<input class="field__input" name="telefono" type="tel" id="telefono" required />
+				</div>
 
-					<div class="flex form__fields">
-						<label class="field__label" for="email">Email: </label>
-						<input class="field__input" name="email" type="email" id="email"  />
-					</div>
+				<div class="flex form__fields">
+					<label class="field__label" for="email">Email: </label>
+					<input class="field__input" name="email" type="email" id="email" required />
+				</div>
 
-					<div class="flex form__fields">
-						<label class="field__label" for="mensaje">Message: </label>
-						<textarea class="field__input" name="mensaje" id="mensaje" rows="4"></textarea>
-					</div>
-					<button class="button button__submit" type="submit">Send</button>
+				<div class="flex form__fields">
+					<label class="field__label" for="mensaje">Message: </label>
+					<textarea class="field__input" name="mensaje" id="mensaje" rows="4" required></textarea>
+				</div>
+				<button class="button button__submit" type="submit">Send</button>
 			</form>
 		</main>
 
