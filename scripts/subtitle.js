@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector(".header__description");var t=["JavaScript Lover","Coffe Drinker","Software Developer"];let n=0;setInterval(function(){e.textContent=t[n],n<t.length-1?n++:n=0},2e3)});
