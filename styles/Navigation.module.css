@@ -1,0 +1,58 @@
+.menu {
+    right: 0;
+    z-index: 1;
+    height: 100vh;
+    position: fixed;
+    padding-top: 2rem;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.close {
+    width: 95%;
+    justify-content: flex-end;
+}
+
+.options {
+    flex-direction: column;
+}
+
+.options a {
+    margin: 2.5rem;
+}
+
+.navigation {
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.links {
+    display: none;
+}
+
+@media (min-width: 480px) {
+    .button {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .links a:not(:last-child) {
+        margin-right: 3.5rem;
+    }
+}
+
+@media (min-width: 767px) {
+    .navigation {
+        margin-top: 6rem;
+    }
+}
