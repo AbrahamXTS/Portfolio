@@ -1,0 +1,15 @@
+.main {
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header {
+	padding-bottom: 3rem;
+}
+
+.header p {
+	line-height: 2;
+	font-size: 1.8rem;
+    text-align: justify;
+}

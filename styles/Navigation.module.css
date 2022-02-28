@@ -49,6 +49,10 @@
     .links a:not(:last-child) {
         margin-right: 3.5rem;
     }
+
+    .links a:hover {
+        color: #718093;
+    }
 }
 
 @media (min-width: 767px) {

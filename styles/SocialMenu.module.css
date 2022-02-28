@@ -1,0 +1,22 @@
+.social {
+	margin-top: 3rem;
+	justify-content: center;
+}
+
+.social a:not(:last-child) {
+	margin-right: 2.5rem;
+}
+
+.social svg {
+	width: 3.3rem;
+}
+
+.social svg:hover {
+	stroke: #718093;
+}
+
+@media (min-width: 360px) {
+	.social svg {
+		width: inherit;
+	}
+}
