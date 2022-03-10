@@ -9,10 +9,11 @@
 
 .social svg {
 	width: 3.3rem;
+	stroke: var(--primario);
 }
 
 .social svg:hover {
-	stroke: #718093;
+	stroke: var(--contraste);
 }
 
 @media (min-width: 360px) {

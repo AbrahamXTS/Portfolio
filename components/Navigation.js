@@ -42,7 +42,7 @@ export default function Navigation() {
 
 			<nav className={`flex container ${styles.navigation}`}>
 				<Link href="/">
-					<img src="/img/logo.svg" width={40} height={40} alt="Logo" />
+					<a><Image src="/img/logo.svg" width={40} height={40} alt="Logo" /></a>
 				</Link>
 				<button onClick={showOptions} className={styles.button}>
 					<svg

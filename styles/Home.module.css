@@ -13,3 +13,8 @@
 	font-size: 1.8rem;
     text-align: justify;
 }
+
+.typing {
+	display: inline;
+	color: var(--primario);
+}

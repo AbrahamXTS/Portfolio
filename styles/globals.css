@@ -1,3 +1,8 @@
+:root {
+	--primario: #54a0ff;
+	--contraste: #2e86de;
+}
+
 body {
 	font-size: 1.7rem;
 	font-family: Arial, sans-serif;

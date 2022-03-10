@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default function HeadTag({children}) {
     return (
         <Head>
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
           {children}
           <link rel="icon" href='/img/logo.svg' type="image/svg" />
           <meta name="description" content="I'm Abraham Espinosa, a Tech passionate and Software Developer" />

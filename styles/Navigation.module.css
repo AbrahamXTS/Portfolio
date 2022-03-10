@@ -6,6 +6,7 @@
     padding-top: 2rem;
     flex-direction: column;
     background-color: white;
+    transition:.2s ease-in-out;
     justify-content: space-between;
 }
 
@@ -20,6 +21,7 @@
 
 .options a {
     margin: 2.5rem;
+    color: var(--primario);
 }
 
 .navigation {
@@ -51,7 +53,7 @@
     }
 
     .links a:hover {
-        color: #718093;
+        color: var(--contraste);
     }
 }
 
