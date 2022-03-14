@@ -18,10 +18,10 @@ export default function Home() {
 				<Navigation />
 
 				<header className={`container ${styles.header}`}>
-					<h1>Abraham Espinosa</h1>
+					<h1><span>A</span>braham Espinosa</h1>
 					<h3>I write <Typing phrases={phrases} classList={styles.typing}/></h3>
 					<p>
-						I am a software developer from Campeche, México. I am passionate about creating
+						I'm a software developer from Campeche, México. I'm passionate about creating
 						technological solutions that help people to empower their projects.
 					</p>
 					<SocialMenu />
