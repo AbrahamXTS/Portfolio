@@ -21,7 +21,7 @@ export default function Home() {
 					<h1><span>A</span>braham Espinosa</h1>
 					<h3>I write <Typing phrases={phrases} classList={styles.typing}/></h3>
 					<p>
-						I'm a software developer from Campeche, México. I'm passionate about creating
+						I&apos;m a software developer from Campeche, México. I&apos;m passionate about creating
 						technological solutions that help people to empower their projects.
 					</p>
 					<SocialMenu />
