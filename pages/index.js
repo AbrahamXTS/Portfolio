@@ -23,10 +23,10 @@ export default function Home() {
 			<Navigation />
 
 			<main className={`${Styles.card} container`}>
-				<h1>👋 Hi, I&#39;m Abraham.</h1>
+				<h1>👋 Hi, I&apos;m Abraham.</h1>
 				<div className={Styles.presentation}>
 					<p>
-						I&#39;m a software developer from Campeche, México. I&#39;m
+						I&apos;m a software developer from Campeche, México. I&apos;m
 						passionate about creating tech solutions that help people to empower
 						their projects.
 					</p>
