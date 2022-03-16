@@ -1,0 +1,14 @@
+.skill {
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #f4fdf9;
+}
+
+.skill:hover {
+    color: var(--primario);
+}
+
+.skill h4 {
+    font-weight: 400;
+}
+

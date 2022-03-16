@@ -1,0 +1,49 @@
+.nav {
+    text-align: center;
+}
+
+.logo {
+	color: black;
+	font-weight: 600;
+	font-size: 2.2rem;
+}
+
+.logo span {
+	border-radius: 0.3rem;
+	padding-bottom: 0.6rem;
+	border-bottom: solid var(--primario) 0.5rem;
+}
+
+.menu {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--secundario);
+}
+
+.menu a:hover {
+    color: var(--primario);
+}
+
+@media (min-width: 468px) {
+	.logo {
+		font-size: 2.8rem;
+	}
+
+    .menu {
+        display: block;
+    }
+
+    .menu a {
+        font-size: 1.8rem;
+    }
+
+    .menu a:not(:last-child) {
+        margin-right: 4rem;
+    }
+}

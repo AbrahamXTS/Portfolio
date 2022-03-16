@@ -1,29 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap");
+@import url("./normalize.css");
+
 :root {
-	--primario: #27ae60;
-	--contraste: #2ecc71;
+	--primario: #20bf6b;
 }
 
 body {
-	font-size: 1.7rem;
-	font-family: Arial, sans-serif;
-}
-
-img {
-	max-width: 100%;
+	font-family: "Rubik", sans-serif;
 }
 
 a {
-	color: inherit;
 	text-decoration: none;
-}
-
-.flex {
-	display: flex;
-	align-items: center;
 }
 
 .container {
 	width: 93%;
-	margin: 0 auto;
-	max-width: 70rem;
+	max-width: 95rem;
+	margin: 5rem auto 0 auto;
+}
+
+@media (min-width: 468px) {
+	.container {
+		margin-top: 8rem;
+	}	
 }
