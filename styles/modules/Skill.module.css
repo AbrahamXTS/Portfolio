@@ -1,4 +1,5 @@
 .skill {
+    padding: 1rem;
     text-align: center;
     border-radius: 1rem;
     background-color: #f4fdf9;
@@ -9,6 +10,7 @@
 }
 
 .skill h4 {
+    margin: 0.5rem;
     font-weight: 400;
 }
 

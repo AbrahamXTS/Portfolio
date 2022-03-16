@@ -6,12 +6,12 @@ import Styles from "../styles/modules/Home.module.css";
 
 export default function Home() {
 	const skills = [
-		{id: 1, name: "Javascript"},
-		{id: 2, name: "React"}, 
-		{id: 3, name: "Next.JS"},
-		{id: 4, name: "Node.JS"},
-		{id: 5, name: "Git"},
-		{id: 6, name: "MySQL"},
+		{id: 1, name: "Javascript", image: "/img/javascript.svg"},
+		{id: 2, name: "React", image: "/img/react.svg"}, 
+		{id: 3, name: "Next.JS", image: "/img/nextjs.svg"},
+		{id: 4, name: "Node.JS", image: "/img/nodejs.svg"},
+		{id: 5, name: "Git", image: "/img/git.svg"},
+		{id: 6, name: "MySQL", image: "/img/mysql.svg"},
 	];
 
 	return (
@@ -41,7 +41,7 @@ export default function Home() {
 			<section className={`${Styles.contact} container`}>
 				<h2>My skills</h2>
 				<div className={`${Styles.social}`}>
-					{skills.map(skill => <Skill name={skill.name} key={skill.id}/>)}
+					{skills.map(skill => <Skill name={skill.name} image={skill.image} key={skill.id}/>)}
 				</div>
 			</section>
 		</>
