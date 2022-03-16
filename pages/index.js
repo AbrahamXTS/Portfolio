@@ -31,7 +31,7 @@ export default function Home() {
 						their projects.
 					</p>
 					<p>
-						I'm on <Link href="https://github.com/abrahamxts"><a target="_blank">Github</a></Link>,
+						I&apos;m on <Link href="https://github.com/abrahamxts"><a target="_blank">Github</a></Link>,
 						<Link href="https://www.instagram.com/abraham_em_/"><a target="_blank"> Instagram </a></Link>
 						and <Link href="https://www.linkedin.com/in/abrahamespinosam/"><a target="_blank">Linkedin</a></Link>.
 					</p>
