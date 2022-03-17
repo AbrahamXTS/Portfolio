@@ -1,13 +1,11 @@
 .card {
 	padding: 1.5rem;
-	background-color: #f4fdf9;
+	border-radius: 1rem;
+	background-color: var(--light);
 }
 
 .card h1 {
 	margin: 0rem;
-	font-weight: 400;
-	font-size: 2.5rem;
-	text-align: center;
 }
 
 .presentation {
@@ -27,12 +25,6 @@
 	margin-bottom: 5rem;
 }
 
-.contact h2 {
-	font-weight: 400;
-	font-size: 2.4rem;
-	text-align: center;
-}
-
 .social {
 	gap: 1rem;
 	display: grid;
@@ -44,11 +36,6 @@
 		padding: 4rem;
 	}
 
-	.card h1 {
-		text-align: start;
-		font-size: 4.6rem;
-	}
-
 	.presentation, .contact p {
 		font-weight: 300;
 		font-size: 2.2rem;
@@ -57,11 +44,6 @@
 
 	.presentation p:last-child {
 		margin-bottom: 0rem;
-	}
-
-	.contact h2 {
-		font-size: 4rem;
-		text-align: start;
 	}
 
 	.social {

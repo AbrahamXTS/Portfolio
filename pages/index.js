@@ -2,16 +2,17 @@ import Link from "next/link";
 import Skill from "../components/Skill"
 import HeadTag from "../components/HeadTag";
 import Navigation from "../components/Navigation";
+import FormContact from "../components/FormContact"
 import Styles from "../styles/modules/Home.module.css";
 
 export default function Home() {
 	const skills = [
 		{id: 1, name: "Javascript", image: "/img/javascript.svg"},
-		{id: 2, name: "React", image: "/img/react.svg"}, 
-		{id: 3, name: "Next.JS", image: "/img/nextjs.svg"},
-		{id: 4, name: "Node.JS", image: "/img/nodejs.svg"},
-		{id: 5, name: "Git", image: "/img/git.svg"},
-		{id: 6, name: "MySQL", image: "/img/mysql.svg"},
+		{id: 2, name: "React", 		image: "/img/react.svg"}, 
+		{id: 3, name: "NextJS", 	image: "/img/nextjs.svg"},
+		{id: 4, name: "NodeJS", 	image: "/img/nodejs.svg"},
+		{id: 5, name: "Git", 		image: "/img/git.svg"},
+		{id: 6, name: "SQL", 		image: "/img/mysql.svg"},
 	];
 
 	return (
@@ -43,6 +44,11 @@ export default function Home() {
 				<div className={`${Styles.social}`}>
 					{skills.map(skill => <Skill name={skill.name} image={skill.image} key={skill.id}/>)}
 				</div>
+			</section>
+
+			<section className={`container`}>
+				<h2>Get in touch</h2>
+				<FormContact />
 			</section>
 		</>
 	);

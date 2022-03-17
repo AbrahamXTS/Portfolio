@@ -1,0 +1,33 @@
+.contact {
+    width: 100%;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    background-color: var(--light);
+}
+
+.form input, 
+.form textarea {
+    width: 100%;
+    resize: none;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0rem 1.5rem 0rem;
+    border: 1px solid var(--primario);
+}
+
+.form input:last-child {
+    color: white;
+    margin: 0.5rem 0rem 0rem 0rem;
+    background-color: var(--primario);
+}
+
+@media (min-width: 468px) {
+    .contact {
+        padding: 4rem;
+    }
+
+    .form input:last-child {
+        width: 15rem;
+    }
+}
