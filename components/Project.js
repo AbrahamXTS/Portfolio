@@ -16,17 +16,12 @@ export default function Project({
 					<div className={Styles.links}>
 						<Link href={website}>
 							<a>
-								<i
-									class="fas fa-globe-americas"
-									target="_blank"
-									aria-hidden="true"
-								></i>
-								Website
+								<i className="fas fa-globe-americas" aria-hidden="true"></i>Website
 							</a>
 						</Link>
 						<Link href={repository}>
 							<a>
-								<i class="fab fa-github" aria-hidden="true"></i>Repository
+								<i className="fab fa-github" aria-hidden="true"></i>Repository
 							</a>
 						</Link>
 					</div>
