@@ -1,13 +1,9 @@
 import Styles from "../styles/modules/FormContact.module.css";
 
 export default function FormContact() {
-	const handleSubmit = (e) => {
-		e.preventDefault();
-	};
-
 	return (
 		<div className={`${Styles.contact}`}>
-			<form className={`${Styles.form}`} onSubmit={handleSubmit} netlify>
+			<form name="contact" className={`${Styles.form}`} data-netlify="true">
 				<label htmlFor="name">Name: </label>
 				<input id="name" required />
 				<label htmlFor="email">Email: </label>

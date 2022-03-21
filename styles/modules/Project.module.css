@@ -1,0 +1,37 @@
+.project {
+	height: 17rem;
+	display: flex;
+	align-items: center;
+	border-radius: 1rem;
+	background-size: cover;
+	flex-direction: column;
+	justify-content: center;
+	background-position: top center;
+}
+
+.info h3 {
+	margin: 0rem;
+	font-weight: bold;
+	color: var(--primario);
+}
+
+.info h3, .info p, .info a {
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.info p {
+	font-weight: 400;
+	margin: 1.5rem 0rem;
+}
+
+.links a {
+	margin: .4rem;
+	padding: .4rem;
+	color: white;
+	background-color: var(--primario);
+}
+
+.links a i {
+	margin: 0.5rem;
+}

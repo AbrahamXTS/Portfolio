@@ -4,19 +4,6 @@
 	background-color: var(--light);
 }
 
-.card h1 {
-	margin: 0rem;
-}
-
-.presentation {
-	line-height: 2;
-	text-align: justify;
-}
-
-.presentation a {
-	color: var(--primario);
-}
-
 .presentation a:hover {
 	text-decoration: underline;
 }
@@ -34,12 +21,6 @@
 @media (min-width: 468px) {
 	.card {
 		padding: 4rem;
-	}
-
-	.presentation, .contact p {
-		font-weight: 300;
-		font-size: 2.2rem;
-		text-align: start;
 	}
 
 	.presentation p:last-child {
