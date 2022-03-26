@@ -12,11 +12,13 @@
 	margin-bottom: 5rem;
 }
 
-.social {
+.social, .projects {
 	gap: 1rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
+
+
 
 @media (min-width: 468px) {
 	.card {
@@ -27,7 +29,7 @@
 		margin-bottom: 0rem;
 	}
 
-	.social {
+	.social, .projects {
 		gap: 2rem;
 		grid-template-columns: repeat(3, 1fr);
 	}

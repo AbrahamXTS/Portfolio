@@ -1,20 +1,17 @@
 import Link from "next/link";
-import Skill from "../components/Skill"
+
+import Skill from "../components/Skill";
 import HeadTag from "../components/HeadTag";
+import Project from "../components/Project";
 import Navigation from "../components/Navigation";
-import FormContact from "../components/FormContact"
+import FormContact from "../components/FormContact";
+
 import Styles from "../styles/modules/Home.module.css";
 
-export default function Home() {
-	const skills = [
-		{id: 1, name: "Javascript", image: "/img/javascript.svg"},
-		{id: 2, name: "React", 		image: "/img/react.svg"}, 
-		{id: 3, name: "NextJS", 	image: "/img/nextjs.svg"},
-		{id: 4, name: "NodeJS", 	image: "/img/nodejs.svg"},
-		{id: 5, name: "Git", 		image: "/img/git.svg"},
-		{id: 6, name: "SQL", 		image: "/img/mysql.svg"},
-	];
+import skills from "../data/skills";
+import projects from "../data/projects";
 
+export default function Home() {
 	return (
 		<>
 			<HeadTag>
@@ -23,7 +20,7 @@ export default function Home() {
 
 			<Navigation />
 
-			<main className={`${Styles.card} container`}>
+			<main id="about" className={`${Styles.card} container`}>
 				<h1>👋 Hi, I&apos;m Abraham.</h1>
 				<div className={Styles.presentation}>
 					<p>
@@ -32,9 +29,19 @@ export default function Home() {
 						their projects.
 					</p>
 					<p>
-						I&apos;m on <Link href="https://github.com/abrahamxts"><a target="_blank">Github</a></Link>,
-						<Link href="https://www.instagram.com/abraham_em_/"><a target="_blank"> Instagram </a></Link>
-						and <Link href="https://www.linkedin.com/in/abrahamespinosam/"><a target="_blank">Linkedin</a></Link>.
+						I&apos;m on{" "}
+						<Link href="https://github.com/abrahamxts">
+							<a target="_blank">Github</a>
+						</Link>
+						,
+						<Link href="https://www.instagram.com/abraham_em_/">
+							<a target="_blank"> Instagram </a>
+						</Link>
+						and{" "}
+						<Link href="https://www.linkedin.com/in/abrahamespinosam/">
+							<a target="_blank">Linkedin</a>
+						</Link>
+						.
 					</p>
 				</div>
 			</main>
@@ -42,11 +49,29 @@ export default function Home() {
 			<section className={`${Styles.contact} container`}>
 				<h2>My skills</h2>
 				<div className={`${Styles.social}`}>
-					{skills.map(skill => <Skill name={skill.name} image={skill.image} key={skill.id}/>)}
+					{skills.map((skill) => (
+						<Skill name={skill.name} image={skill.image} key={skill.id} />
+					))}
 				</div>
 			</section>
 
-			<section className={`container`}>
+			<section id="projects" className={`container`}>
+				<h2>My projects</h2>
+				<p>Client projects and some of my spare time tinkering.</p>
+				<div className={`${Styles.projects}`}>
+					{projects.map((project) => (
+						<Project
+							key={project.id}
+							name={project.name}
+							image={project.image}
+							website={project.website}
+							technologies={project.technologies}
+						/>
+					))}
+				</div>
+			</section>
+
+			<section id="contact" className={`container`}>
 				<h2>Get in touch</h2>
 				<FormContact />
 			</section>

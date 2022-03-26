@@ -12,9 +12,9 @@ export default function Navigation() {
 				</Link>
 				<div className={Styles.menu}>
 					<Link href="/">HOME</Link>
-					<Link href="/about">ABOUT</Link>
-					<Link href="/projects">PROJECTS</Link>
-					<Link href="/contact">CONTACT</Link>
+					<Link href="#about">ABOUT</Link>
+					<Link href="#projects">PROJECTS</Link>
+					<Link href="#contact">CONTACT</Link>
 				</div>
 			</nav>
 		</>
