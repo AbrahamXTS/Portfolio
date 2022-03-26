@@ -2,19 +2,16 @@
     gap: 1.5rem;
     display: grid;
     margin-top: 2rem;
-	margin-bottom: 7rem;
+	margin-bottom: 4rem;
     grid-template-columns: 1fr;
+}
+
+.text {
+    font-weight: 300;
 }
 
 @media (min-width: 468px) {
     .projects {
         margin-top: 3rem;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 769px) {
-    .projects {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
