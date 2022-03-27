@@ -6,7 +6,7 @@
 }
 
 .skill:hover {
-    color: var(--primario);
+    background-color: #fafafa;
 }
 
 .skill h4 {
