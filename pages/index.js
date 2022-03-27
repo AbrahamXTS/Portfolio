@@ -1,24 +1,29 @@
 import Link from "next/link";
-
 import Skill from "../components/Skill";
 import HeadTag from "../components/HeadTag";
 import Project from "../components/Project";
 import Navigation from "../components/Navigation";
 import FormContact from "../components/FormContact";
-
 import Styles from "../styles/modules/Home.module.css";
-
 import skills from "../data/skills";
 import projects from "../data/projects";
+import { useInView } from 'react-intersection-observer';
 
 export default function Home() {
+
+	const { ref, inView } = useInView({
+		threshold: 0,
+	});
+
 	return (
 		<>
 			<HeadTag>
 				<title>Abraham Espinosa</title>
 			</HeadTag>
 
-			<Navigation />
+			<nav ref={ref}>
+				<Navigation />
+			</nav>
 
 			<main id="about" className={`${Styles.card} container`}>
 				<h1>👋 Hi, I&apos;m Abraham.</h1>
@@ -76,6 +81,12 @@ export default function Home() {
 				<h2>Get in touch</h2>
 				<FormContact />
 			</section>
+			
+			{!inView &&
+			<a href='#' className={Styles.top}>
+				<svg width="35" height="35" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <line x1="12" y1="5" x2="12" y2="19" /> <line x1="16" y1="9" x2="12" y2="5" /> <line x1="8" y1="9" x2="12" y2="5" /></svg>
+			</a>
+			}
 		</>
 	);
 }

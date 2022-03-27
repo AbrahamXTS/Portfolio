@@ -12,7 +12,8 @@
 	margin-bottom: 5rem;
 }
 
-.social, .projects {
+.social,
+.projects {
 	gap: 1rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -20,6 +21,22 @@
 
 .projects {
 	grid-template-columns: 1fr;
+}
+
+.top {
+	right: 2rem;
+	bottom: 2rem;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	border-radius: 0.5rem;
+	padding: 0.1rem 0.6rem;
+	background: var(--light);
+}
+
+.top svg:hover {
+	stroke: var(--primario);
 }
 
 @media (min-width: 468px) {
@@ -31,7 +48,8 @@
 		margin-bottom: 0rem;
 	}
 
-	.social, .projects {
+	.social,
+	.projects {
 		gap: 2rem;
 		grid-template-columns: repeat(3, 1fr);
 	}
