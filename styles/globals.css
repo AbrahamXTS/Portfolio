@@ -6,6 +6,10 @@
 	--primario: #6c5ce7;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Rubik", sans-serif;
 }

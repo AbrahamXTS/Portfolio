@@ -4,6 +4,7 @@ const projects = [
 		name: "Olán & Rondanini",
 		image: "/img/projects/1.png",
 		website: "https://orabogados.mx/",
+		repository: "https://github.com/AbrahamXTS/OlanRondanini",
 		technologies: ["HTML", "SCSS", "JavaScript"],
 	},
 	{
@@ -11,6 +12,7 @@ const projects = [
 		name: "Grupo Consultor Galindo",
 		image: "/img/projects/2.png",
 		website: "https://gcgalindo.mx",
+		repository: "https://github.com/AbrahamXTS/GrupoConsultorGalindo",
 		technologies: ["PHP", "Bootstrap", "JavaScript"],
 	},
 	{
@@ -18,6 +20,7 @@ const projects = [
 		name: "Algo Bonito",
 		image: "/img/projects/3.png",
 		website: "https://algo-bonito.herokuapp.com",
+		repository: "https://github.com/AbrahamXTS/AlgoBonito",
 		technologies: ["PHP", "CSS", "JavaScript"],
 	},
 	{
@@ -25,6 +28,7 @@ const projects = [
 		name: "Gestor de Veterinaria",
 		image: "/img/projects/4.png",
 		website: "https://abraham-espinosa-07.netlify.app",
+		repository: "https://github.com/AbrahamXTS/VeterinaRiact",
 		technologies: ["ReactJS", "Tailwind", "JavaScript"],
 	},
 	{
@@ -32,6 +36,7 @@ const projects = [
 		name: "Gestor de Gastos",
 		image: "/img/projects/5.png",
 		website: "https://abraham-espinosa-08.netlify.app",
+		repository: "https://github.com/AbrahamXTS/GastosReact",
 		technologies: ["ReactJS", "CSS", "JavaScript"],
 	},
 	{
@@ -39,6 +44,7 @@ const projects = [
 		name: "Pokedex",
 		image: "/img/projects/6.png",
 		website: "https://abraham-espinosa-02.netlify.app/",
+		repository: "https://github.com/AbrahamXTS/PaginationPokeAPI",
 		technologies: ["ReactJS", "Bootstrap", "TypeScript"],
 	},
 ];

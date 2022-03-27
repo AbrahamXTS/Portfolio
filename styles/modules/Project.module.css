@@ -1,0 +1,37 @@
+.project {
+	padding: 1.5rem;
+	text-align: center;
+	border-radius: 1rem;
+	background-color: var(--light);
+}
+
+.project h4 {
+    margin: 0rem;
+}
+
+.project p {
+    margin: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    gap: 0.7rem;
+    justify-content: center;
+}
+
+.web {
+    display: inline-block;
+}
+
+.web svg:hover, .links button svg:hover {
+    stroke: var(--primario);
+}
+
+.links button {
+    border: none;
+    padding: 0rem;
+    cursor: pointer;
+    background-color: transparent;
+}

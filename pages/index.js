@@ -65,6 +65,7 @@ export default function Home() {
 							name={project.name}
 							image={project.image}
 							website={project.website}
+							repository={project.repository}
 							technologies={project.technologies}
 						/>
 					))}
