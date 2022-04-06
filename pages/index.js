@@ -6,6 +6,7 @@ import Navigation from "../components/Navigation";
 import FormContact from "../components/FormContact";
 import Styles from "../styles/modules/Home.module.css";
 import { useInView } from 'react-intersection-observer';
+import Typing from "../components/Typing"
 import projects from "../data/projects";
 import skills from "../data/skills";
 
@@ -14,6 +15,8 @@ export default function Home() {
 	const { ref, inView } = useInView({
 		threshold: 0,
 	});
+
+	const phrasesList = ["Software Developer", "Frontend Developer", "React Developer"]
 
 	return (
 		<>
@@ -29,7 +32,7 @@ export default function Home() {
 				<h1>👋 Hi, I&apos;m Abraham.</h1>
 				<div className={Styles.presentation}>
 					<p>
-						I&apos;m a <a href="/docs/resume.pdf" target="_blank" rel="noopener noreferrer">Software Developer</a> from Campeche, México. I&apos;m
+						I&apos;m a <a href="/docs/resume.pdf" target="_blank" rel="noopener noreferrer">Frontend Developer</a> from Campeche, México. I&apos;m
 						passionate about creating tech solutions that help people to empower their projects. 
 					</p>
 					<p>

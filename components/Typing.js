@@ -20,7 +20,7 @@ export default function Typing({phrases, classList}) {
 	}, []);
 
 	return (
-		<div className={classList}>
+		<div style={{"display": "inline-block"}}>
 			<span ref={el}></span>
 		</div>
 	);
