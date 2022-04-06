@@ -16,8 +16,6 @@ export default function Home() {
 		threshold: 0,
 	});
 
-	const phrasesList = ["Software Developer", "Frontend Developer", "React Developer"]
-
 	return (
 		<>
 			<HeadTag>
